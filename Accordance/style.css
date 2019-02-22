@@ -1,0 +1,265 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*border: 1px dotted red; */
+
+}
+
+.navbar{
+    width: 850px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    background-color:rgb(229,229,229);
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.nb{
+    list-style-type: none; 
+    display: inline-block;
+    vertical-align: top; 
+}
+
+#menu{
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.nb_item{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    font-size: small;
+   
+}
+
+.input{
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    min-height: 18px;
+    margin-left: 320px;
+    border-radius: 5px;
+
+}
+#menu2{
+    
+    margin-left: -10px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.middle{
+    margin-top: 10px;
+    width: 850px;
+    height: auto;
+    margin-left: 50px;
+}
+#main_img{
+    width: 850px;
+}
+
+.mb{
+    list-style-type: none; 
+    display: inline-block;
+    vertical-align: top; 
+    background-color: rgb(71,71,71);
+    width: 850px;
+    margin-top: -5px;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.mb li{
+    margin-left: 28px;
+}
+
+.mb_item1{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    font-size: xx-small;
+    margin-left: 10px;
+    color: white;
+}
+
+.mb_item{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    font-size: xx-small;
+    margin-left: 10px;
+    color: rgb(129,173,202);
+}
+
+.discover {
+    padding: 20px;
+    margin-top: 10px;
+    width: 810px;
+    height: auto;
+    margin-left: 50px;
+    border: 1px solid grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.discover h2{
+    color: rgb(192,192,192);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.discover a{
+    padding:10px;
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    background-color: rgb(73,125,162);
+    border-radius: 5px;
+    margin-left: 110px;
+    color: white;
+}
+
+a p{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.top_table{
+    width: 850px;
+    display: inline-block;
+    margin-left: 50px;
+    border: 1px solid grey;
+    
+    background-image: linear-gradient(white, rgb(242,242,240))
+}
+.video_preview{
+    
+    padding: 20px;
+    width: 160px;
+    height: 220px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#c_icon1{
+    width: 20px;
+}
+.video_preview h5{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+
+.video_preview p{
+    font-size: 11px;
+    
+}
+
+#watch{
+
+    width: 160px;
+
+}
+
+#tour{
+
+    width: 160px;
+    min-height: 101px;
+}
+#trial{
+
+    width: 160px;
+    min-height: 103px;
+}
+#tour{
+
+    width: 160px;
+    min-height: 101px;
+}
+#buy{
+
+    width: 160px;
+    min-height: 114px;
+}
+
+
+.video_preview a{
+    padding:10px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 130px;
+    background-color: rgb(73,125,162);
+    border-radius: 5px;
+    margin-left: 5px;
+    color: white;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+}
+
+.emptybox{
+    width: 850px;
+    min-height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    border: 1px solid grey;
+    background-color: rgb(242,242,240);
+}
+
+.bottom_table{
+    width: 850px;
+    display: inline-block;
+    margin-left: 50px;
+    height: 250px;
+   
+}
+
+.bottom_links{
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    
+    font-size: xx-small; 
+    margin-left: 5px;
+    
+}
+
+.bottom_links h3{
+    padding: 10px
+}
+.bottom_links ul li{
+    list-style-type: none;
+    padding: 10px;
+    color: rgb(169,168,166);
+}
+
+.footer{
+    margin-left: 50px;
+    font-size: small;
+    color: rgb(169,168,166);
+    
+}
+
+
+
+
+

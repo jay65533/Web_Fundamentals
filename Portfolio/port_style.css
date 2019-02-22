@@ -1,0 +1,149 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.container{
+    width: 700px;
+    height: 700px;
+}
+
+.header{
+    height: 50px;
+    
+}
+    
+.header h1{
+    margin-right: 500px;
+    margin-left: 20px;
+    padding-top: 1px;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: Arial;
+    
+} 
+.header h3{
+    margin-left: 365px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: -30px;
+    font-family: Arial, sans-serif; 
+}
+.upper{
+    padding: 0px;
+    display:inline-block;
+    margin-left: 10px;
+}
+.main_info{
+    height: 680 px;
+    width: 700px;
+    background-image: radial-gradient(rgb(111, 89, 100) 50%,rgb(32,15,20));
+    vertical-align: top;
+    padding: 10px;
+}
+#image{
+    height: 210px;
+    width: 311px;
+    margin-right: 5px;
+    
+    border: 5px groove white;
+}
+.about {
+    min-height: 220px;
+    width: 340px;
+    background-color: white;
+    margin-left: 10px;
+    display:inline-block;
+    vertical-align: top;
+    font-size: 13px;
+}
+.tableheader{
+    background-color: #999;
+   
+    
+}
+.tableheader td h3{
+    color: white;
+    padding: 5px;
+ 
+    
+}
+
+.tableheader td h2{
+    color: white;
+}
+
+.lamode {
+    height: 100px;
+    width: 200px;
+}
+
+.lower{
+    display: flex;
+    padding: 10px;
+    font-size:12px;
+    vertical-align: top;
+}
+.portfolio1{
+    background-color: white;
+    float:left;
+    vertical-align:top;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+tr td img{
+    height: 30px;
+    margin: 5px;
+}
+
+.footer img{
+    display: inline-block;
+    width: 20px;
+   
+}
+.footer a{
+    display: inline-block;
+    padding:0px 5px 5px 5px;
+    vertical-align: top;
+
+}
+table{
+    float: left;
+    vertical-align: top;
+}
+.portfolio2{
+    float: left;
+    margin-top: 0px;
+    margin-right: 20px;
+    background-color: white;
+}
+.portfolio3{
+    float: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: white;
+}
+.footer{
+    text-align: center;
+    display:inline-block;
+    width: 700px;
+}
+ .portfolio1 table tr td p{
+     min-height : 135px;
+ }
+
+ .portfolio2 table tr td p{
+     min-height: 135px;
+ }
+.lower table tr td a{
+    text-align: center;
+    display:inline-block;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(64,125,97);
+    color: white; 
+    font-size: 15px;
+    border-radius: 7px;
+}

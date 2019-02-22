@@ -1,0 +1,66 @@
+*{
+    width: 0px auto;
+    
+}
+
+
+h1{
+    background-color: rgb(170,170,170);
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+
+.info{
+    padding: 10px;
+    background-color: rgb(197,197,197);
+    border: 2px solid black;
+}
+
+.Description{
+    padding: 5px;
+    background-color: rgb(225,225,143);
+    border: 2px solid black;
+}
+
+@media only screen and (max-width:480px){
+    .Desktop{
+        display: none;
+    }
+
+    .Tablet{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:481px){
+    .Desktop{
+        display: none;
+    }
+
+
+    .Phone{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:1024px){
+    
+    .Phone{
+        display: none;
+    }
+
+    .Tablet{
+        display: none;
+    }
+
+    .Desktop{
+        display: block;
+    }
+}
+
+
+
+
