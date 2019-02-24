@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disappearing Ninja</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="ninja.css">
+</head>
+<body>
+    <div class = "container">
+        <img id ="image1" alt="" src="ninja.png">
+        <img id ="image2" alt="" src="ninja.png">
+        <img id ="image3" alt="" src="ninja.png">
+        <img id ="image4" alt="" src="ninja.png">
+        <img id ="image5" alt="" src="ninja.png">
+        <img id ="image6" alt="" src="ninja.png">
+        <img id ="image7" alt="" src="ninja.png">
+        <img id ="image8" alt="" src="ninja.png">
+        
+    </div>
+    <button type="button">Restore Ninjas</button>
+    <script>
+        $(".container #image1").click(function(){
+           $(".container #image1").fadeOut("slow");
+       });
+
+       $(".container #image2").click(function(){
+           $(".container #image2").fadeOut("slow");
+       });
+       $(".container #image3").click(function(){
+           $(".container #image3").fadeOut("slow");
+       });
+       $(".container #image4").click(function(){
+           $(".container #image4").fadeOut("slow");
+       });
+       $(".container #image5").click(function(){
+           $(".container #image5").fadeOut("slow");
+       });
+       $(".container #image6").click(function(){
+           $(".container #image6").fadeOut("slow");
+       });
+       $(".container #image7").click(function(){
+           $(".container #image7").fadeOut("slow");
+       });
+       $(".container #image8").click(function(){
+           $(".container #image8").fadeOut("slow");
+       });
+       $("button").click(function(){
+           $("img:hidden").fadeIn("slow");
+       });
+    </script>
+</body>
+</html>
