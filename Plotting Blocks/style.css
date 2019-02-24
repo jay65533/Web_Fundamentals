@@ -1,0 +1,101 @@
+/*CSS reset settings here*/
+*{
+    margin:  0px;
+    padding: 0px;
+    
+   }
+   #wrapper{
+    width: 80%;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 10px;
+   
+   }
+
+   #header{
+    min-height: 150px;
+    display: inline-block;
+    width: 94%;
+    background-color: green;
+    
+    
+   }
+   #navigation{
+    min-height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+   }
+   #main_content{
+    min-height: 200px;
+    width: 70%;
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    
+   
+   
+   }
+   .subcontents{
+    min-height: 200px;
+    width: 15%;
+    background-color: yellow;
+    display:inline-block;
+    vertical-align: top;
+    
+    
+   }
+   #advertisement{
+    min-height: 120px;
+    width: 95%;
+    margin-top: 5px;
+    background-color: purple;
+    display: inline-block;
+    vertical-align: top;
+    
+   }
+
+   @media screen and (min-width: 1024px){
+    #navigation{
+        height: 30px;
+        width: 20%;
+        background-color: blue;
+        margin-left: 15px;
+        
+        display: inline-block;
+       }
+       .subcontents{
+            height: 200px;
+            width: 30%;
+            background-color: yellow;
+            margin: 10px 10px 30px;
+            
+            display: inline-block;
+       }
+   }
+
+   @media screen and (max-width: 480px){
+	#main_content{
+	 height:40%;
+	 width: 92%;
+	 background-color: red;
+	 
+	 margin: 0px 15px 20px;
+	 display: inline-block;
+
+	}
+	#navigation{
+	 display: none;
+	}
+	.subcontents{
+		 height: 200px;
+		 width: 60%;
+		 background-color: yellow;
+		 margin: 10px 10px 30px;
+		 
+		 display: inline-block;
+	}
+
+}
+
+

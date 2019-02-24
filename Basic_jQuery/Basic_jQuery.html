@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Basic_jQuery_style.css">
+
+</head>
+<body>
+    <div class = "addclass">
+        <p> Click the button to change the text color to red!
+            Sed sed leo mattis, porta tellus vitae, finibus turpis. 
+            Nulla quis varius orci, euismod euismod lectus. Sed odio nulla, fermentum id faucibus eget, rhoncus in augue. 
+            Morbi egestas viverra nulla, at lacinia lorem rutrum vel. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        </p>
+        <button type="button">Click Me!</button>
+    </div>
+    <div class = "toggle">
+        <p>Click the button to toggle the paragraph!
+            Sed sed leo mattis, porta tellus vitae, finibus turpis. 
+            Nulla quis varius orci, euismod euismod lectus. Sed odio nulla, fermentum id faucibus eget, rhoncus in augue. 
+            Morbi egestas viverra nulla, at lacinia lorem rutrum vel. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+        </p>
+        <button type="button">Click Me!</button>
+    </div>
+
+    <div class = "slidetoggle">
+        <p>Click the button to slidetoggle the paragraph!
+            Sed sed leo mattis, porta tellus vitae, finibus turpis. 
+            Nulla quis varius orci, euismod euismod lectus. Sed odio nulla, fermentum id faucibus eget, rhoncus in augue. 
+            Morbi egestas viverra nulla, at lacinia lorem rutrum vel. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+        </p>
+        <button type="button">Click Me!</button>
+    </div>
+
+    <div class = "fadeIn">
+        <img id ="image" alt="" src="charmander.png">
+        <img id ="image" alt="" src="squirtle.png">
+        <img id ="image" alt="" src="bulbasaur.png">
+        <button type="button">Click Me to fadeIn Pokemon!</button>
+    </div>
+
+    <div class = "fadeOut">
+        <img id ="image2" alt="" src="charmander.png">
+        <img id ="image2" alt="" src="squirtle.png">
+        <img id ="image2" alt="" src="bulbasaur.png">
+        <p>Click the Pokemon to make them fadeOut</p>
+    </div>
+
+    <div class = "beforeandafter">
+        <p> Sed sed leo mattis, porta tellus vitae, finibus turpis. 
+            Nulla quis varius orci, euismod euismod lectus. Sed odio nulla, fermentum id faucibus eget, rhoncus in augue. 
+            Morbi egestas viverra nulla, at lacinia lorem rutrum vel. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+        </p>
+    </div>
+    <div class = "append">
+        <p> Sed sed leo mattis, porta tellus vitae, finibus turpis. 
+            Nulla quis varius orci, euismod euismod lectus. Sed odio nulla, fermentum id faucibus eget, rhoncus in augue. 
+            Morbi egestas viverra nulla, at lacinia lorem rutrum vel. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+        </p>
+    </div>
+    
+
+    <script>
+       $(".addclass button").click(function(){
+           $(".addclass p").addClass("selected");
+       });
+
+       $(".toggle button").click(function(){
+           $(".toggle p").toggle();
+       });
+
+        $(".slidetoggle button").click(function(){
+           $(".slidetoggle p").slideToggle();
+       });
+
+       $(".fadeIn button").click(function(){
+           $("img:hidden:first").fadeIn("slow");
+       });
+
+       $(".fadeOut img").click(function(){
+           $(".fadeOut img").fadeOut("slow");
+       });
+
+       $(".beforeandafter p").before("<strong>Hello World!</strong>");
+       
+       $(".beforeandafter p").after("<strong>Goodbye World!</strong>");
+
+       $(".append p").append("<strong>Goodbye World!</strong>");
+       
+    </script>
+</body>
+</html>
